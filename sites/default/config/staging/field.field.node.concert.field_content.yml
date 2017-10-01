@@ -1,0 +1,21 @@
+uuid: 2d7d9281-45f9-4e18-acfa-49f2babb6a07
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content
+    - node.type.concert
+  module:
+    - text
+id: node.concert.field_content
+field_name: field_content
+entity_type: node
+bundle: concert
+label: Contenu
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

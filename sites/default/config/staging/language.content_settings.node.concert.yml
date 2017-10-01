@@ -1,0 +1,11 @@
+uuid: ea4623d4-0f27-43d0-a90f-9aa756ce0062
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.concert
+id: node.concert
+target_entity_type_id: node
+target_bundle: concert
+default_langcode: site_default
+language_alterable: false

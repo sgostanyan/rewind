@@ -1,0 +1,14 @@
+uuid: d4a553ac-13f7-490e-8223-f4afe82c68c2
+name: Rewind
+mail: rewindlivemusic@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+langcode: fr
+default_langcode: fr
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

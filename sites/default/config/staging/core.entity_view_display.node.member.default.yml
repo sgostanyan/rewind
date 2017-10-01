@@ -1,0 +1,44 @@
+uuid: 03324965-f9d9-416c-b725-8678bc8722ec
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.member.field_description
+    - field.field.node.member.field_instrument
+    - field.field.node.member.field_photo
+    - node.type.member
+  module:
+    - user
+id: node.member.default
+targetEntityType: node
+bundle: member
+mode: default
+content:
+  field_description:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_instrument:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_photo:
+    weight: 0
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden:
+  langcode: true
+  links: true

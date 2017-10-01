@@ -1,0 +1,58 @@
+uuid: 407ad2c5-283a-46fa-b3fe-7860c09babec
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.concert.field_content
+    - field.field.node.concert.field_photo
+    - node.type.concert
+  module:
+    - inline_entity_form
+    - text
+id: node.concert.default
+targetEntityType: node
+bundle: concert
+mode: default
+content:
+  field_content:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_photo:
+    weight: 3
+    settings:
+      form_mode: default
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: true
+      match_operator: CONTAINS
+      override_labels: false
+    third_party_settings: {  }
+    type: inline_entity_form_complex
+    region: content
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 1
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  path: true
+  sticky: true
+  uid: true

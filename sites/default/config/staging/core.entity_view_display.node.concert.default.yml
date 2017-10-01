@@ -1,0 +1,35 @@
+uuid: 1782f694-9aed-42ec-9085-fed1a73c43de
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.concert.field_content
+    - field.field.node.concert.field_photo
+    - node.type.concert
+  module:
+    - text
+    - user
+id: node.concert.default
+targetEntityType: node
+bundle: concert
+mode: default
+content:
+  field_content:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_photo:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: thumbnail
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden:
+  langcode: true
+  links: true

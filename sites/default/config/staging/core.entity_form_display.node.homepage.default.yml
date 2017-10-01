@@ -1,0 +1,56 @@
+uuid: 09f80535-adc7-4da5-ac12-b761a70980f2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.homepage.field_iframe_facebook
+    - field.field.node.homepage.field_introduction
+    - field.field.node.homepage.field_members
+    - node.type.homepage
+  module:
+    - text
+id: node.homepage.default
+targetEntityType: node
+bundle: homepage
+mode: default
+content:
+  field_iframe_facebook:
+    weight: 26
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_introduction:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_members:
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  path: true
+  promote: true
+  sticky: true
+  uid: true

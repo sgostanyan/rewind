@@ -1,0 +1,22 @@
+uuid: f526e498-d69d-4cc4-b3bb-e50d1b68e688
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rewind_theme
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: rewind_theme_content
+theme: rewind_theme
+region: content
+weight: -3
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contenu de la page principale'
+  provider: system
+  label_display: '0'
+visibility: {  }

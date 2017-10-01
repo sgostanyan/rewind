@@ -1,0 +1,16 @@
+uuid: b2695bb4-f963-4331-8ee0-3db6867cc314
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: yw6B1eEwE-yPTXWo01PMrpXqhtDUEDfeioNNmgQLby8
+name: crop_thumbnail
+label: 'Crop thumbnail'
+effects:
+  dd89933b-612d-423a-b515-ecae0309dfd2:
+    uuid: dd89933b-612d-423a-b515-ecae0309dfd2
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 100
+      height: 100

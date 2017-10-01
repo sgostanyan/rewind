@@ -1,0 +1,29 @@
+uuid: 38d9f7aa-b82c-415f-a4f2-d8451ae68361
+langcode: fr
+status: true
+dependencies:
+  module:
+    - entity_browser_entity_form
+name: media_browser
+label: 'Media browser'
+display: modal
+display_configuration:
+  width: '650'
+  height: '500'
+  link_text: 'Sélectionner les entités'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: drop_down
+widget_selector_configuration: {  }
+widgets:
+  f6d66b49-33fe-4878-a04d-645081550423:
+    settings:
+      entity_type: media
+      bundle: image
+      form_mode: default
+      submit_text: 'Enregistrer l''entité'
+    uuid: f6d66b49-33fe-4878-a04d-645081550423
+    weight: 2
+    label: Media
+    id: entity_form

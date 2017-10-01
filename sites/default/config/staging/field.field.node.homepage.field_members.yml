@@ -1,0 +1,28 @@
+uuid: a6a17a0c-8b22-4d81-bee1-839539bc9947
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_members
+    - node.type.homepage
+    - node.type.member
+id: node.homepage.field_members
+field_name: field_members
+entity_type: node
+bundle: homepage
+label: 'Les Membres'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      member: member
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

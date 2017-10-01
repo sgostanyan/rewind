@@ -1,0 +1,47 @@
+uuid: 1f046d2b-a41b-41a4-b28c-d49394af5ce8
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.homepage.field_iframe_facebook
+    - field.field.node.homepage.field_introduction
+    - field.field.node.homepage.field_members
+    - node.type.homepage
+  module:
+    - text
+    - user
+id: node.homepage.default
+targetEntityType: node
+bundle: homepage
+mode: default
+content:
+  field_iframe_facebook:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_introduction:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_members:
+    weight: 102
+    label: above
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

@@ -1,0 +1,14 @@
+uuid: a8d46f1c-792f-4774-939a-76b5ab0dbb5c
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: Contactez-nous
+recipients:
+  - rewindlivemusic@gmail.com
+reply: ''
+weight: 0
+message: 'Votre message a été envoyé.'
+redirect: ''

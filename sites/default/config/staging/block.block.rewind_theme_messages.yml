@@ -1,0 +1,22 @@
+uuid: a0613cf0-5974-43a9-be47-0afbabbe1b2c
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rewind_theme
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: rewind_theme_messages
+theme: rewind_theme
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Messages de statut'
+  provider: system
+  label_display: '0'
+visibility: {  }

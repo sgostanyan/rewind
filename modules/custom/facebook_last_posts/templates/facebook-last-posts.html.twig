@@ -1,0 +1,36 @@
+{% if content %}
+  <div id="facebook-last-posts">
+
+  {% for post in content %}
+
+    <div class="facebook-post">
+      <div class="fb-post-top">
+        <div class="profil-pic">
+          <a href="https://facebook.com/{{ post.from.id }}" target="_blank"><img src="{{ content.profile_picture }}" alt="img"></a>
+          <div class="fb-top-right">
+            <div class="fb-name"><a href="https://facebook.com/{{ post.from.id }}" target="_blank" >{{ post.from.name }}</a></div>
+            {% if post.created_time %}
+              <div class="time"><span>{{ post.created_time }}</span></div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+
+      <div class="fb-post-content">
+        {% if post.message %}
+          <div class="message">
+            <p>{{ post.message }}</p>
+          </div>
+        {% endif %}
+
+        {% if post.picture %}
+          <div class="picture {% if post.source %} video{% endif %}">
+            <a href="https://facebook.com/{{ post.id }}" target="_blank">
+              <img src="{{ post.picture }}"/>
+            </a>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+{% endif %}

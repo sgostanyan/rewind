@@ -1,0 +1,22 @@
+uuid: a95c98e6-eee8-4177-b9a9-3004f0b2a217
+langcode: fr
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - rewind_theme
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: rewind_theme_help
+theme: rewind_theme
+region: content
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Aide
+  provider: help
+  label_display: '0'
+visibility: {  }

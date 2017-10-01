@@ -1,0 +1,42 @@
+uuid: 3c935d50-9d39-4553-bc20-06a49aed3d12
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.diapo
+    - field.field.media.image.field_copyright
+    - field.field.media.image.field_image
+    - field.field.media.image.field_show_homepage
+    - image.style.diapo_1200x400
+    - media_entity.bundle.image
+  module:
+    - image
+id: media.image.diapo
+targetEntityType: media
+bundle: image
+mode: diapo
+content:
+  field_copyright:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_image:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: diapo_1200x400
+      image_link: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_show_homepage: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

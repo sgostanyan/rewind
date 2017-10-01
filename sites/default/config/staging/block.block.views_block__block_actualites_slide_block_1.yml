@@ -1,0 +1,24 @@
+uuid: 797c16a3-4190-4b84-9e35-c857f42e4afa
+langcode: fr
+status: false
+dependencies:
+  config:
+    - views.view.block_actualites_slide
+  module:
+    - views
+  theme:
+    - rewind_theme
+id: views_block__block_actualites_slide_block_1
+theme: rewind_theme
+region: content
+weight: -2
+provider: null
+plugin: 'views_block:block_actualites_slide-block_1'
+settings:
+  id: 'views_block:block_actualites_slide-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

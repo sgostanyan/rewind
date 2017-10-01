@@ -1,0 +1,10 @@
+uuid: dd5ba267-043e-408f-9c81-e88dd159f70f
+langcode: fr
+status: true
+dependencies:
+  module:
+    - media_entity
+id: media.diapo
+label: Diapo
+targetEntityType: media
+cache: true

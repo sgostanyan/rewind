@@ -1,0 +1,69 @@
+uuid: d0728ba6-a329-4dcb-b51a-5197d5b835a0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.member.field_description
+    - field.field.node.member.field_instrument
+    - field.field.node.member.field_photo
+    - node.type.member
+  module:
+    - entity_browser_entity_form
+    - inline_entity_form
+id: node.member.default
+targetEntityType: node
+bundle: member
+mode: default
+content:
+  field_description:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_instrument:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_photo:
+    weight: 1
+    settings:
+      form_mode: default
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: true
+      match_operator: CONTAINS
+      override_labels: false
+    third_party_settings:
+      entity_browser_entity_form:
+        entity_browser_id: _none
+    type: inline_entity_form_complex
+    region: content
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 4
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  path: true
+  sticky: true
+  uid: true

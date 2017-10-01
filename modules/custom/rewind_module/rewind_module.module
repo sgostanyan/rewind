@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains rewind_module.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function rewind_module_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the rewind_module module.
+    case 'help.page.rewind_module':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function rewind_module_theme() {
+  return [
+    'rewind_module' => [
+      'render element' => 'children',
+    ],
+  ];
+}

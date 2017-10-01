@@ -1,0 +1,10 @@
+uuid: af225a71-9e71-4767-bcfd-f1a2f06956dd
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: node.promoted
+label: 'A la une'
+targetEntityType: node
+cache: true

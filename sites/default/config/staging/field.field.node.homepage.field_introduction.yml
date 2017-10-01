@@ -1,0 +1,21 @@
+uuid: 087d5dbe-f2eb-4b10-ab2b-fdc0c1157fc2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_introduction
+    - node.type.homepage
+  module:
+    - text
+id: node.homepage.field_introduction
+field_name: field_introduction
+entity_type: node
+bundle: homepage
+label: Presentation
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

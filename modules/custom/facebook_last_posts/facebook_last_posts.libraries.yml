@@ -1,0 +1,9 @@
+fblp-style:
+  version: 1.x
+  css:
+    theme:
+      css/fb-style.css: {}
+  js:
+    js/fb-script.js: {}
+  dependencies:
+    - core/jquery

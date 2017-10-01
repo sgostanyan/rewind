@@ -1,0 +1,36 @@
+uuid: 6508d505-2e36-48a3-a1c3-f182d531cfd5
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.promoted
+    - field.field.node.news.field_content
+    - field.field.node.news.field_photo
+    - node.type.news
+  module:
+    - text
+    - user
+id: node.news.promoted
+targetEntityType: node
+bundle: news
+mode: promoted
+content:
+  field_content:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_photo:
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: thumbnail
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden:
+  langcode: true
+  links: true

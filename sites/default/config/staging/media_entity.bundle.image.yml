@@ -1,0 +1,20 @@
+uuid: 194a8d73-d760-42b1-be28-44f4cd52426a
+langcode: fr
+status: true
+dependencies:
+  module:
+    - crop
+    - media_entity_image
+third_party_settings:
+  crop:
+    image_field: null
+id: image
+label: Image
+description: ''
+type: image
+queue_thumbnail_downloads: false
+new_revision: false
+type_configuration:
+  source_field: ''
+  gather_exif: false
+field_map: {  }

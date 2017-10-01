@@ -1,0 +1,23 @@
+uuid: 21e98554-38f6-4566-bdd8-93f18c0b7754
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_show_homepage
+    - media_entity.bundle.image
+id: media.image.field_show_homepage
+field_name: field_show_homepage
+entity_type: media
+bundle: image
+label: 'Afficher sur la page d''accueil'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

@@ -1,0 +1,19 @@
+uuid: 8abaa3c7-cbf9-4226-861a-c34ce57d84e1
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_instrument
+    - node.type.member
+id: node.member.field_instrument
+field_name: field_instrument
+entity_type: node
+bundle: member
+label: Instrument
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

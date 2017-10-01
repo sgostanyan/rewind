@@ -1,0 +1,55 @@
+.block-facebook-last-posts{
+  margin-top: 1em;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.block-facebook-last-posts .fb-block-title{
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 1em;
+}
+
+.block-facebook-last-posts .fb-block-title img{
+  width: 30px;
+  height: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 0.8em;
+  margin-right: 0.8em;
+}
+
+.block-facebook-last-posts .fb-block-title h2{
+  margin: 0;
+}
+
+#facebook-last-posts .facebook-post{
+  padding: 0.8em;
+  background-color: white;
+  color: black;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+#facebook-last-posts .facebook-post .fb-post-top .profil-pic{
+  display: flex;
+  justify-content: flex-start;
+}
+
+#facebook-last-posts .facebook-post .fb-post-top .profil-pic img{
+  border-radius: 50%;
+}
+
+#facebook-last-posts .facebook-post .fb-top-right{
+  margin-left: 0.5em;
+  line-height: 1.5em;
+}
+
+#facebook-last-posts .facebook-post .fb-top-right .time{
+  font-size: 0.8em;
+}
+
+#facebook-last-posts .facebook-post .fb-post-content{
+  padding: 0.8em;
+}

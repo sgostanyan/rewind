@@ -1,0 +1,19 @@
+uuid: ee45ce90-d154-46ed-8088-2d431ace3f95
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.member
+  module:
+    - user
+id: node.member.teaser
+targetEntityType: node
+bundle: member
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

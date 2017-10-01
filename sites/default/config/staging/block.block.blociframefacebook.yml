@@ -1,0 +1,31 @@
+uuid: b84e7d54-73a5-4e4d-9875-ec0ad45122a2
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:5f7675ce-284b-4a76-a7c2-06aa902eecfe'
+  module:
+    - block_content
+    - system
+  theme:
+    - rewind_theme
+id: blociframefacebook
+theme: rewind_theme
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:5f7675ce-284b-4a76-a7c2-06aa902eecfe'
+settings:
+  id: 'block_content:5f7675ce-284b-4a76-a7c2-06aa902eecfe'
+  label: Facebook
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

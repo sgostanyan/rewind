@@ -1,0 +1,22 @@
+uuid: 4675b56c-2031-40fc-9ca5-645839163ead
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.homepage
+id: node.homepage.status
+field_name: status
+entity_type: node
+bundle: homepage
+label: 'Publishing status'
+description: 'Un booléen indiquant l''état de publication.'
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

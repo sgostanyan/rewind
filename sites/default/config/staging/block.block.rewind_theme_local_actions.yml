@@ -1,0 +1,20 @@
+uuid: 28fb57b2-8421-402c-8f12-5a8951afd821
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - rewind_theme
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: rewind_theme_local_actions
+theme: rewind_theme
+region: content
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Actions d''administration principales'
+  provider: core
+  label_display: '0'
+visibility: {  }

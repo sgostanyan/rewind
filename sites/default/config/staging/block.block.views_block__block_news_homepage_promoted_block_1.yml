@@ -1,0 +1,32 @@
+uuid: 9d7397e8-dccd-49fa-95be-a6fb580f2246
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.block_news_homepage_promoted
+  module:
+    - ctools
+    - views
+  theme:
+    - rewind_theme
+id: views_block__block_news_homepage_promoted_block_1
+theme: rewind_theme
+region: sidebar_second
+weight: -8
+provider: null
+plugin: 'views_block:block_news_homepage_promoted-block_1'
+settings:
+  id: 'views_block:block_news_homepage_promoted-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      homepage: homepage
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

@@ -1,0 +1,11 @@
+uuid: e56ef366-621f-49a8-94d1-7c9d2f86bbff
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.news
+id: node.news
+target_entity_type_id: node
+target_bundle: news
+default_langcode: site_default
+language_alterable: false

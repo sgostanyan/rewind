@@ -1,0 +1,22 @@
+uuid: 8e141d50-81ad-4576-959b-9c9fc5aa1a57
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - rewind_theme
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: rewind_theme_local_tasks
+theme: rewind_theme
+region: content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Onglets
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

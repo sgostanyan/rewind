@@ -1,0 +1,19 @@
+uuid: 7f8f3abd-b298-4ca4-98b3-830681e92eba
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.concert
+  module:
+    - user
+id: node.concert.teaser
+targetEntityType: node
+bundle: concert
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

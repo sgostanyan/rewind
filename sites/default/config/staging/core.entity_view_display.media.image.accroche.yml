@@ -1,0 +1,42 @@
+uuid: 7af793ce-9262-4de5-b577-c8d32bce6f50
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.accroche
+    - field.field.media.image.field_copyright
+    - field.field.media.image.field_image
+    - field.field.media.image.field_show_homepage
+    - image.style.thumbnail
+    - media_entity.bundle.image
+  module:
+    - image
+id: media.image.accroche
+targetEntityType: media
+bundle: image
+mode: accroche
+content:
+  field_copyright:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: thumbnail
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  created: true
+  field_show_homepage: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

@@ -1,0 +1,21 @@
+uuid: ff37bb0d-afbd-45b3-9cd6-e47e6ab2c116
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content
+    - node.type.news
+  module:
+    - text
+id: node.news.field_content
+field_name: field_content
+entity_type: node
+bundle: news
+label: Contenu
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

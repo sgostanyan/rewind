@@ -1,0 +1,52 @@
+uuid: d7917d95-98c2-4ddd-a7ad-382a499be91c
+langcode: fr
+status: true
+dependencies: {  }
+id: contributor
+label: Contributeur
+weight: 3
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access files overview'
+  - 'access in-place editing'
+  - 'access media overview'
+  - 'access site in maintenance mode'
+  - 'access toolbar'
+  - 'administer nodes'
+  - 'create concert content'
+  - 'create media'
+  - 'create member content'
+  - 'create news content'
+  - 'delete any concert content'
+  - 'delete any media'
+  - 'delete any member content'
+  - 'delete any news content'
+  - 'delete concert revisions'
+  - 'delete media'
+  - 'delete member revisions'
+  - 'delete news revisions'
+  - 'delete own concert content'
+  - 'delete own member content'
+  - 'delete own news content'
+  - 'edit any concert content'
+  - 'edit any homepage content'
+  - 'edit any member content'
+  - 'edit any news content'
+  - 'edit own concert content'
+  - 'edit own homepage content'
+  - 'edit own member content'
+  - 'edit own news content'
+  - 'revert concert revisions'
+  - 'revert homepage revisions'
+  - 'revert member revisions'
+  - 'revert news revisions'
+  - 'update any media'
+  - 'update media'
+  - 'use text format full_html'
+  - 'view concert revisions'
+  - 'view homepage revisions'
+  - 'view media'
+  - 'view member revisions'
+  - 'view news revisions'
+  - 'view the administration theme'

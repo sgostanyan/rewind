@@ -1,0 +1,14 @@
+uuid: 60d7283f-cf15-417f-8bd8-c355391f619e
+langcode: fr
+status: true
+dependencies: {  }
+name: diapo_1200x400
+label: 'Diapo 1200x400'
+effects:
+  625c9f28-59c3-4abc-8dda-dbe596af445b:
+    uuid: 625c9f28-59c3-4abc-8dda-dbe596af445b
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1200
+      height: 400

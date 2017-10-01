@@ -1,0 +1,25 @@
+uuid: 19ad6131-3209-4162-964f-00073b6d4e0f
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rewind_theme
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: rewind_theme_branding
+theme: rewind_theme
+region: header
+weight: -7
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Marque du site'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

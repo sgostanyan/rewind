@@ -1,0 +1,38 @@
+<?php
+
+/**
+ * @file
+ * Contains facebook_last_posts.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function facebook_last_posts_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the facebook_last_posts module.
+    case 'help.page.facebook_last_posts':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function facebook_last_posts_theme() {
+  return array('facebook_last_posts' =>
+    array(
+      'variables' => array(
+        'content' => null,
+      ),
+      'template' => 'facebook-last-posts'
+    )
+  );
+}

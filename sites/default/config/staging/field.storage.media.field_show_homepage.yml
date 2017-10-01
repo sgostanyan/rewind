@@ -1,0 +1,18 @@
+uuid: ec646ab3-dca1-4eda-9b8e-9e2e72ae1746
+langcode: fr
+status: true
+dependencies:
+  module:
+    - media_entity
+id: media.field_show_homepage
+field_name: field_show_homepage
+entity_type: media
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
