@@ -363,6 +363,9 @@ form input[type="submit"]{
   #block-rewind-theme-branding img{
     width: 100%;
   }
+  #block-rewind-theme-footer .copyright {
+    line-height: 1.2em;
+  }
 }
 
 @media all and (max-device-width:625px){
