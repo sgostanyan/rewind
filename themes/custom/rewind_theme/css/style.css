@@ -321,9 +321,36 @@ header .region-header{
   line-height: 2.5em;
 }
 
+form{
+  background-color: rgba(0,0,0,0.7);
+  margin-top: 1em;
+  padding: 2em;
+  color: black;
+}
+
+form label{
+  color: #F0B302;
+}
+
+form input[type="text"],form input[type="email"]{
+  width: 70%;
+  display: block;
+}
+
 form input,
 form textarea{
   color: black;
+}
+
+form input[type="submit"]{
+  margin-top: 1em;
+  background-color: #F0B302;
+  color: black;
+  border: none;
+  font-weight: bold;
+  border-radius: 2px;
+  cursor: pointer;
+  font-family: 'Times New Roman', 'Times', serif;
 }
 
 .block-contact-site_page h1.page-title,
@@ -332,6 +359,11 @@ form textarea{
 }
 
 /* Responsive */
+@media all and (max-device-width:445px){
+  #block-rewind-theme-branding img{
+    width: 100%;
+  }
+}
 
 @media all and (max-device-width:625px){
   #block-rewind-theme-main-menu{
