@@ -358,6 +358,19 @@ form input[type="submit"]{
   text-align: center;
 }
 
+#user-login-form label{
+  display: block;
+}
+
+#user-login-form input[type="text"],
+#user-login-form input[type="password"]{
+  width: 100%;
+}
+
+#user-login-form .description{
+  display: none;
+}
+
 /* Responsive */
 @media all and (max-device-width:445px){
   #block-rewind-theme-branding img{
@@ -409,10 +422,6 @@ form input[type="submit"]{
     /*margin-top: 0;*/
     text-align: center;
   }
-  .node--type-news .field--name-field-photo{
-
-  }
-  .node--type-news .field--name-field-content
 }
 
 @media all and (max-device-width:945px){
